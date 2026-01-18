@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For My Love</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+      color: #333;
+      text-align: center;
+    }
+    .container {
+      padding: 60px 20px;
+    }
+    h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 22px;
+      max-width: 700px;
+      margin: auto;
+    }
+    .heart {
+      font-size: 80px;
+      margin-top: 20px;
+      animation: beat 1s infinite;
+    }
+    @keyframes beat {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 15px 35px;
+      background: white;
+      color: #ff5b77;
+      font-size: 20px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+      transition: 0.3s;
+    }
+    .btn:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>For Mili ❤️</h1>
+    <p>
+      This little website is just for you, Mili. To tell you that you matter, you’re special,
+      and you bring so much light into my life. Every moment with you feels like magic.
+    </p>
+    <div class="heart">💖</div>
+    <a href="#" class="btn">Forever Yours</a>
+  </div>
+</body>
+</html>
